@@ -1,6 +1,6 @@
 
 <div align="center">  
-  <h1>✨ @angularsockets/elaina-bail</h1>  
+  <h1>✨ angularsockets</h1>  
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant ✨</em></p>
   
   <img src="https://files.catbox.moe/dmz2fn.jpg" width="300" alt="Elaina Bail Banner" />  
@@ -8,11 +8,11 @@
 ---
 
   <p>  
-    <a href="https://www.npmjs.com/package/@angularsockets/elaina-bail">  
-      <img src="https://img.shields.io/npm/v/@angularsockets/elaina-bail?color=blueviolet&label=version&logo=npm" alt="npm version" />  
+    <a href="https://www.npmjs.com/package/angularsockets">  
+      <img src="https://img.shields.io/npm/v/angularsockets?color=blueviolet&label=version&logo=npm" alt="npm version" />  
     </a>  
-    <a href="https://www.npmjs.com/package/@angularsockets/elaina-bail">  
-      <img src="https://img.shields.io/npm/dt/@angularsockets/elaina-bail?color=blueviolet&label=downloads&logo=npm" alt="npm downloads" />  
+    <a href="https://www.npmjs.com/package/angularsockets">  
+      <img src="https://img.shields.io/npm/dt/angularsockets?color=blueviolet&label=downloads&logo=npm" alt="npm downloads" />  
     </a>  
     <a href="https://whatsapp.com/channel/0029VapYyKEGufIpsd3Rja2C">  
       <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />  
@@ -30,7 +30,7 @@
 
 ## 📌 Overview
 
-> **elaina-bail** is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
+> **angularsockets** is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
 
 ### Current Version: **1.4.0**
 
@@ -52,7 +52,7 @@ All update information is now redirected to the WhatsApp channel:
 
 ```json
 "dependencies": {  
-  "@whiskeysockets/baileys": "npm:@angularsockets/elaina-bail"  
+  "@whiskeysockets/baileys": "npm:angularsockets"  
 }
 ```
 
@@ -60,14 +60,14 @@ All update information is now redirected to the WhatsApp channel:
 
 ```json
 "dependencies": {  
-  "@adiwajshing/baileys": "npm:@angularsockets/elaina-bail"  
+  "@adiwajshing/baileys": "npm:angularsockets"  
 }
 ```
 
 ### Or via terminal
 
 ```bash
-npm install elaina-bail@npm:@angularsockets/elaina-bail
+npm install baileys@npm:angularsockets
 ```
 
 ### Importing (for those who don't fork another repository)
@@ -75,13 +75,13 @@ npm install elaina-bail@npm:@angularsockets/elaina-bail
 **ESM**
 
 ```javascript
-import makeWASocket from '@angularsockets/elaina-bail'
+import makeWASocket from 'angularsockets'
 ```
 
 **CJS**
 
 ```javascript
-const { default: makeWASocket } = require('@angularsockets/elaina-bail')
+const { default: makeWASocket } = require('angularsockets')
 ```
 
 ---
@@ -241,13 +241,10 @@ Please contact the maintainer directly via WhatsApp:
 - Nystar
 
 > [!CAUTION]
-> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. elaina-bail extends it with thoughtful UX and DX improvements.
+> Built on top of the WhiskeySockets/Baileys project. All original core logic credits go to their team. angularsockets extends it with thoughtful UX and DX improvements.
 
 ---
 
 <div align="center">
   <p>Made with 💜 by MR FRANK OFC</p>
 </div>
-
-
-
