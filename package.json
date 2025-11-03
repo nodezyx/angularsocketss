@@ -1,7 +1,7 @@
 {
   "name": "angularsockets",
   "version": "1.4.0",
-  "description": "Custom Baileys WhatsApp API",
+  "description": "Custom Baileys WhatsApp API by Mr Frank",
   "keywords": [
     "baileys", 
     "baileys-mod", 
@@ -11,12 +11,12 @@
     "whatsapp-api", 
     "whatsapp-web",
     "whatsapp-bot",
-    "automation", 
+    "subzero-md", 
     "multi-device"
   ],
-  "homepage": "https://whatsapp.com/channel/0029VbBwhI0KbYMOrj0HOk2d",
+  "homepage": "https:github.com/mrfr8nk",
   "license": "MIT",
-  "author": "RexxHayanasi",
+  "author": "Mr Frank OFC",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -35,8 +35,8 @@
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
-    "prepack": "echo '@rexxhayanasi/elaina-bail'",
-    "prepare": "echo '@rexxhayanasi/elaina-bail'",
+    "prepack": "echo 'angularsockets'",
+    "prepare": "echo 'angularsockets'",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
     "test": "jest"
