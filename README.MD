@@ -5,7 +5,7 @@
   <h1>✨ AngularSockets</h1>
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant ✨</em></p>
 
-  <img src="https://files.catbox.moe/dmz2fn.jpg" width="300" alt="AngularSockets Banner" />
+  <img src="https://dabby.vercel.app/baileys.png" width="300" alt="AngularSockets Banner" />
 
 ---
 
@@ -16,7 +16,7 @@
     <a href="https://www.npmjs.com/package/angularsockets">
       <img src="https://img.shields.io/npm/dt/angularsockets?color=blueviolet&label=downloads&logo=npm" alt="npm downloads" />
     </a>
-    <a href="https://whatsapp.com/channel/0029VapYyKEGufIpsd3Rja2C">
+    <a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D">
       <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
     </a>
   </p>
