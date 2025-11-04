@@ -1,9 +1,9 @@
 
 <div align="center">  
-  <h1>✨ angularsockets</h1>  
+  <h1>✨ Angularsockets</h1>  
   <p><em>Custom WhatsApp library built upon Baileys — enhanced, modernized, and elegant ✨</em></p>
   
-  <img src="https://files.catbox.moe/dmz2fn.jpg" width="300" alt="Elaina Bail Banner" />  
+  <img src="https://dabby.vercel.app/baileys.png" width="300" alt="Subzero Bail Banner" />  
 
 ---
 
@@ -14,14 +14,14 @@
     <a href="https://www.npmjs.com/package/angularsockets">  
       <img src="https://img.shields.io/npm/dt/angularsockets?color=blueviolet&label=downloads&logo=npm" alt="npm downloads" />  
     </a>  
-    <a href="https://whatsapp.com/channel/0029VapYyKEGufIpsd3Rja2C">  
+    <a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D">  
       <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />  
     </a>  
   </p>  
 </div>
 
 <p align="center">  
-  <a href="https://elaina-bail.vercel.app">  
+  <a href="https://angularsockets.vercel.app">  
     <img src="https://img.shields.io/badge/Documentation-Baileys-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="View Documentation">  
   </a>  
 </p>
@@ -32,13 +32,13 @@
 
 > **angularsockets** is a refined version of the Baileys library with cleaner API usage, exclusive features like album messaging, newsletter controls, and full-size profile uploads — tailored for modern WhatsApp automation needs.
 
-### Current Version: **1.4.0**
+### Current Version: **1.4.2**
 
 > **Update Information**
 
 All update information is now redirected to the WhatsApp channel:
 
-<a href="https://whatsapp.com/channel/0029VapYyKEGufIpsd3Rja2C">
+<a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D">
   <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
 </a>
 
@@ -108,13 +108,13 @@ const { default: makeWASocket } = require('angularsockets')
 
 ```javascript
 // Create a newsletter  
-await sock.newsletterCreate("Elaina Updates");  
+await sock.newsletterCreate("Subzero Updates");  
   
 // Change description  
-await sock.newsletterUpdateDescription("elaina@newsletter", "Fresh updates weekly");  
+await sock.newsletterUpdateDescription("subzero@newsletter", "Fresh updates weekly");  
   
 // Send a reaction to a channel message  
-await sock.newsletterReactMessage("elaina@newsletter", "175", "🔥");
+await sock.newsletterReactMessage("subzero@newsletter", "175", "🔥");
 ```
 
 </details>
@@ -130,7 +130,7 @@ const buttons = [
   
 const msg = {  
   text: "Choose one:",  
-  footer: "From Elaina with love 💜",  
+  footer: "From Mr Frank with love 💜",  
   buttons,  
   headerType: 1  
 };  
@@ -158,7 +158,7 @@ await sock.sendMessage(id, { album: media, caption: "Memories 💫" }, { quoted:
 <summary><strong>🔐 Pairing with Custom Code</strong></summary>
 
 ```javascript
-const code = await sock.requestPairingCode("62xxxxxxxxxx", "ELAINA01");  
+const code = await sock.requestPairingCode("263xxxxxxxxx", "MRFRANKX");  
 console.log("Your Pairing Code:", code);
 ```
 
